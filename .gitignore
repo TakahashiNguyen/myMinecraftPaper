@@ -4,7 +4,7 @@
 userdata*
 *paper*.jar
 /*cache
-/logs
+/*logs
 /libraries
 /world*
 *.propeties
