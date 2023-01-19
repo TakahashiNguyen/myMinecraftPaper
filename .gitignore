@@ -2,6 +2,7 @@
 *.db*
 *.bin
 userdata*
+server.jar
 *paper*.jar
 /*cache
 logs/
