@@ -10,3 +10,4 @@ userdata*
 *.propeties
 !server.propeties
 !vi_VN.propeties
+.console_history
