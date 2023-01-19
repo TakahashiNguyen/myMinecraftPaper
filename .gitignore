@@ -7,5 +7,6 @@ userdata*
 /logs
 /libraries
 /world*
+*.propeties
 !server.propeties
 !vi_VN.propeties
