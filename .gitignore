@@ -2,3 +2,10 @@
 *.db*
 *.bin
 userdata*
+*paper*.jar
+/*cache
+/logs
+/libraries
+/world*
+!server.propeties
+!vi_VN.propeties
