@@ -9,7 +9,7 @@ server.jar
 *tmp/
 *.data
 lib*/
-/[wW]orld*/
+/[wW]orld*/*
 *.propeties
 .console_history
 usercache.json
@@ -22,6 +22,6 @@ lastupdate
 plugins/Essentials/usermap.csv
 *userdata/
 !*/config.yml
-!world/datapacks/apple
+!/world/datapacks/
 wepif.yml
 plugins/nCore/dependencies/relocated/nlogin/*
