@@ -1,0 +1,194 @@
+########################################################################################
+# +----------------------------------------------------------------------------------+ #
+# |                                                                                  | #
+# |     _____                _    _      _____                     _  _              | #
+# |    |  __ \              | |  | |    |  __ \                   | || |             | #
+# |    | |  | |  ___   __ _ | |_ | |__  | |__) |___  _ __    __ _ | || |_  _   _     | #
+# |    | |  | | / _ \ / _` || __|| '_ \ |  ___// _ \| '_ \  / _` || || __|| | | |    | #
+# |    | |__| ||  __/| (_| || |_ | | | || |   |  __/| | | || (_| || || |_ | |_| |    | #
+# |    |_____/  \___| \__,_| \__||_| |_||_|    \___||_| |_| \__,_||_| \__| \__, |    | #
+# |                                                                        __/  |    | #
+# |                                                                        |___/     | #
+# |                                                                                  | #
+# +----------------------------------------------------------------------------------+ #
+########################################################################################
+# This file for config DeathPenalty Plugin                                             #
+# I recommend  use config gui ~/deathpenalty config~. but you can still change         #
+# config from this file.                                                               #
+# Don't forget reload config file after change this config file ~deathpenalty reload~  #
+########################################################################################
+# +-------------------------------PERMISSION NODE------------------------------------+ #
+# | -deathpenalty.admin               : Open GUI config                              | #
+# | -deathpenalty.bypassALL           : Bypass all penalty feature                   | #
+# | -deathpenalty.bypassHealth        : Bypass Health Penalty Modifier               | #
+# | -deathpenalty.bypassFood          : Bypass Food Penalty Modifier                 | #
+# | -deathpenalty.bypassSaturation    : Bypass Saturation Penalty Modifier           | #
+# | -deathpenalty.bypassPotion        : Bypass Potion Penalty Modifier               | #
+# | -deathpenalty.bypassMoney         : Bypass Money Penalty Modifier                | #
+# | -deathpenalty.bypassDropMoney     : Bypass DropMoney Penalty Modifier            | #
+# | -deathpenalty.bypassMonster       : Bypass Monster Penalty Modifier              | #
+# | -deathpenalty.bypassInvDrop       : Bypass InvDrop Penalty Modifier              | #
+# | -deathpenalty.bypassDeathKillerCmd: Bypass DeathKillerCommand Penalty            | #
+# | -deathpenalty.bypassDeathCommand  : Bypass DeathCommand Penalty                  | #
+# | -deathpenalty.bypassExpDrop       : Bypass Exp LV Drop Penalty Modifier          | #
+# +----------------------------------------------------------------------------------+ #
+########################################################################################
+# Set player info when use command /deathpenalty info
+# gui / chat
+PlayerInfoCmd: gui
+# (Global) Set True if you use DeathLost as Percent value. Set False if you use DeathLost as Flat value
+IsPercent: true
+# (Global) Set Money penalties for death player (flat or percent) for Global
+MoneyLost: 95
+# (Global) Change Death money min
+DeathMoneyMin: 1
+# This option to enable or disable Modify Food and Health after player death for all (global and group).
+ModifyFoodandHealth: false
+# (Global) Set penalties remove heart for respawn player for Global (Usually one heart bar = 2 )
+DeathRemoveHealthBar: 10
+# (Global) Set penalties remove food for respawn player for Global (Usually one food bar = 2 )
+DeathRemoveFoodBar: 10
+# (Global) Your food level will  instantly drop if you are saturated 0, Vanilla Default Saturation after respawn is 5
+DeathsetSaturation: 1
+# Set enable world for penalties
+EnabledWorlds:
+- world
+- world_nether
+- world_the_end
+# Drop money when player dead instead just remove theme from player.
+DropMoney:
+  # Set enable or disable this feature.
+  Enable: true
+  # Type of Item to drop
+  Item: EMERALD
+  # How much money will drop when player death (percentage)
+  Percent: 100
+  # Whether the dropped item should glow or not
+  Enchanted: true
+  # CustomModelData can be set to customize textures. Only works with 1.14+. This lite guide for custom model data: https://www.planetminecraft.com/forums/communities/texturing/new-1-14-custom-item-models-tuto-578834/
+  CustomModelData: 0
+  # Money drop name,
+  # %symbol% money symbol from message.yml
+  # %money% total drop money
+  # %player% name player whose drop money
+  CustomNameDrop: '&2%symbol%&3%money%'
+  # Use decimals on name ?
+  UseDecimals: false
+# (Global) Change EXP LV lost or drop when player dead ~It's Level not only EXP point (EXPERIMENTAL).
+EXPDropModifier:
+  # Set enable or disable this feature.
+  Enable: false
+  # (Global) Set EXP LV lost or drop(KEEP-INVENTORY) Percentage penalties for death player. this option not work if UserPerPermission: true.
+  EXPDropPercent: 50
+# Set to true if you want to use per Permission Group setting instead Global settings
+UserPerPermission: false
+# Set group for User per Permission Group, you can add, remove or edit group setting.
+# if you want setting player group for VIP, just add deathpenalty.group.vip on permission plugin's
+# default:                  ### The name of permission node deathpenalty.group.default
+# MoneyLost: 5              ### Set Money penalties for death player (flat or percent) default group name
+# DeathMoneyMin: 500        ### Change Death money min
+# DeathRemoveHealthBar: 5   ### Set penalties remove heart for respawn player for default group name (Usually one heart bar = 2 )
+# EXPDropPercent: 50        ### Set EXP LV Drop Percentage penalties for death player.
+# DeathRemoveFoodBar: 5     ### Set penalties remove food for respawn player for default group name (Usually one food bar = 2 )
+# DeathsetSaturation: 1     ### Your food level will not instantly drop if you are saturated > 0, Vanilla Default Saturation is 5
+Group:
+  # For a while, Don't delete default group name if you Dont add all group with deathpenalty permission.
+  # Because if UserPerPermission true and group without permission will set to deathpenalty.group.default.
+  default:
+    MoneyLost: 5
+    DeathMoneyMin: 500
+    DeathRemoveHealthBar: 5
+    DeathRemoveFoodBar: 5
+    DeathsetSaturation: 1
+    EXPDropPercent: 50
+  vip:
+    MoneyLost: 2
+    DeathMoneyMin: 100
+    DeathRemoveHealthBar: 2
+    DeathRemoveFoodBar: 2
+    DeathsetSaturation: 1
+    EXPDropPercent: 10
+# Add potion effect when player respawn
+ApplyPotionOnRespawn: true
+# list all potion effect on player respawn. https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+# use in game config if you won't search on internet.
+RespawnPotionEffect:
+  WEAKNESS:
+    Duration: 20
+    Amplifier: 1
+  DARKNESS:
+    Duration: 20
+    Amplifier: 1
+  UNLUCK:
+    Duration: 20
+    Amplifier: 1
+  SLOW_DIGGING:
+    Duration: 20
+    Amplifier: 1
+  SLOW:
+    Duration: 20
+    Amplifier: 1
+# Spawn Monster on player death
+SpawnMobs:
+  # Enable or Disable Spawn monster on player death
+  Enable: false
+  # Set type mobs when player death. https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+  MobType: Zombie
+  # Equip monster with helmet for sun resisted.
+  WithHelmet: true
+  # Prevent spawned monster from death drop item and EXP when killed.
+  # If DisableMobsDrop False, players will use their death monster for farm item and exp.
+  DisableMobsDrop: true
+  # Spawn monster with player names
+  WithName:
+    # Set true for enable this options, and false for disable.
+    Enable: true
+    # Set monster name, %player% for player name.
+    PrefixName: Monster Of %player%
+  # Set custom max health for monster spawn.
+  CustomMobsHealth:
+    # Set true for enable this options, and false for disable.
+    Enable: true
+    # Set max health for monster death spawn.
+    MaxHealth: 20
+# Random delete or drop items on players inventory when death, include equipment.
+RandomRemoveItem:
+  # Set enable or disable this feature.
+  Enable: false
+  # How much random slot item will remove or delete when player death
+  RemoveSlot: 1
+  # How much stack item per slot will remove or delete when player death
+  # If you want to remove all item on player random slot when death, set it to 64 or 99 :)
+  StackItemRemove: 64
+  # When gameRules KeepInventory true, item will drop or deleted forever ?
+  # delete : remove item forever
+  # drop : drop item on the ground.... or lava (it's deleted forever too XD).
+  OnKeepInventoryTrue: delete
+# Run server command when player killed by player
+PlayerKilledCommand:
+  # Enable or Disable PlayerKilledCommand on player death
+  Enable: false
+  # Server command without "/"
+  ServerCommand:
+  - effect give %player% minecraft:weakness 20
+  - effect give %player% minecraft:slowness 20
+  - effect give %player% minecraft:darkness 20
+  - effect give %killer% minecraft:luck 200
+# Run server command when player death by any cause.
+RunCommandWhenDeath:
+  # Enable or Disable RunCommandWhenDeath on player death
+  Enable: false
+  # Server command without "/"
+  ServerCommand:
+  - say %player% is death
+  - say %player% is death
+# Check update every 24 hours
+CheckUpdate: true
+# Send data to bstats ?
+bStats: true
+# Debug player death, set false if you don't understand with weird message when this plugin active XD.
+# Because this config only for debugging my plugin.
+Debug: false
+# Dont change this value.
+Version: 1.7.2
+# Note: sorry if you dont understand with my explanation. I got C in English class XD.

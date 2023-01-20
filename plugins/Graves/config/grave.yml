@@ -206,8 +206,8 @@ settings:
       ########
       # Drop a head belonging to the grave owner.
       head:
-        enabled: false
-        percent: 0.2 # Chance a head should be created, 0.2 = 20%, 1 = 100%, 0 = 0%.
+        enabled: true
+        percent: 0.02 # Chance a head should be created, 0.2 = 20%, 1 = 100%, 0 = 0%.
         model-data: -1 # Custom model data, -1 is none.
         name: "%owner_name%'s Head"
         lore:

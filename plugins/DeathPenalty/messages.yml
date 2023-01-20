@@ -1,0 +1,33 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                     DeathPenalty                     | #
+# |                       Message                        | #
+# +------------------------------------------------------+ #
+############################################################
+# Coloring message can use standard bukkit symbol like &2 and use Hexcode (1.16+) <#abcdef>
+# CHAT, BOSSBAR, ACTION_BAR
+MessageDeathType: BOSSBAR
+# Change Prefix for command message
+Prefix: '&l&2[&3DP&2]&f '
+# Money symbol
+MoneySymbol: $
+# Symbol Position. if false, symbol position after money.
+BeforeMoney: true
+# Change Death Message lost money Message and HEX Color Format.
+DeathMessage: '&aYou died and lost &2%money_lost% &amoney'
+# Change NoPermission Message and HEX Color Format.
+NoPermission: '&aYou do not have permission to execute this command'
+# Change Must Player Message and HEX Color Format.
+PlayerCommand: '&2Sorry that''s command must run by a player!'
+# Change Reload Message and HEX Color Format.
+ReloadCommand: '&bConfig has been reloaded!'
+# Change pick up money from death player
+PickupMoneyDecimal: false
+PickupMoneyMessage: '&aYou picked up : &2%money%'
+# Show message when player command /deathpenalty
+OnCommand:
+- '&4Available commands'
+- '&a/deathpenalty reload - &2Reloads config files'
+- '&a/deathpenalty config - &2Open config GUI'
+- '&a/deathpenalty info - &2info plugin variable'
+
