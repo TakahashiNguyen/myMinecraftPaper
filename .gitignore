@@ -15,3 +15,6 @@ tmp/
 !vi_VN.propeties
 .console_history
 usercache.json
+plugins/Auto-Tune/web/data/data.csv
+plugins/Essentials/usermap.csv
+plugins/ProtocolLib/lastupdate
