@@ -1,0 +1,16 @@
+Allowed: true
+MaxLevel: 1
+SlotCost: 2
+Color: '%GREEN%'
+MaximumBlocksPerSwing: 2000
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: LLL
+  Middle: LEL
+  Bottom: LLL
+  Materials:
+    E: EMERALD
+    L: OAK_WOOD

@@ -1,0 +1,16 @@
+Allowed: true
+Color: '%GRAY%'
+MaxLevel: 3
+SlotCost: 1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: GSG
+  Middle: SAS
+  Bottom: GSG
+  Materials:
+    A: ANCIENT_DEBRIS
+    S: SOUL_SAND
+    G: GOLD_BLOCK

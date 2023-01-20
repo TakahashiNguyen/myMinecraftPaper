@@ -1,0 +1,17 @@
+Allowed: true
+Color: '%DARK_GRAY%'
+MaxLevel: 5
+SlotCost: 1
+ArmorPerLevel: 1.0
+ToughnessPerLevel: 0.5
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: D D
+  Middle: III
+  Bottom: D D
+  Materials:
+    D: DIAMOND
+    I: IRON_BLOCK

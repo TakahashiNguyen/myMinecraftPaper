@@ -1,0 +1,14 @@
+Allowed: true
+Color: '%DARK_GREEN%'
+MaxLevel: 5
+SlotCost: 1
+Duration: 120
+DurationMultiplier: 1.1
+EffectAmplifier: 2
+DropRottenMeatIfPoisoned: true
+EffectHealsPlayer: true
+EnchantCost: 20
+Enchantable: true
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: false

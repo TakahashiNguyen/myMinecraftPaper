@@ -1,0 +1,18 @@
+Allowed: true
+Color: '%DARK_GRAY%'
+MaxLevel: 3
+SlotCost: 1
+ApplyUnbreakableOnMaxLevel: false
+HideUnbreakableFlag: true
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: IOI
+  Middle: ODO
+  Bottom: IOI
+  Materials:
+    D: DIAMOND
+    I: IRON_INGOT
+    O: OBSIDIAN

@@ -10,13 +10,13 @@ server.jar
 *.data
 lib*/
 [wW]orld*/*
+worlds
 plugins/LuckPerms/config.yml
 *.propeties
 .console_history
 usercache.json
 .archive-unpack/
 [lL]ang*/
-
 !server.propeties
 */usermap.csv
 lastupdate
@@ -27,3 +27,4 @@ plugins/Essentials/usermap.csv
 wepif.yml
 plugins/nCore/dependencies/relocated/nlogin/*
 plugins/Lottery/data.yml
+plugins/Graves/config/config.yml

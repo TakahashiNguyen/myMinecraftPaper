@@ -1,0 +1,17 @@
+Allowed: true
+Color: '%GOLD%'
+MaxLevel: 3
+SlotCost: 1
+CooldownInSeconds: 5
+Elytra:
+  DurabilityLoss: 10
+  SpeedPerLevel: 0.05
+  Sound: true
+  Particles: true
+ConsiderReinforced: true
+ReinforcedUseLessDurability: true
+EnchantCost: 25
+Enchantable: true
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: false

@@ -1,0 +1,15 @@
+Allowed: true
+Color: '%AQUA%'
+MaxLevel: 3
+SlotCost: 1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: BBB
+  Middle: BDB
+  Bottom: BBB
+  Materials:
+    B: BLUE_ICE
+    D: DIAMOND

@@ -1,0 +1,19 @@
+Allowed: true
+Color: '%DARK_GRAY%'
+MaxLevel: 5
+SlotCost: 1
+Duration: 120
+DurationMultiplier: 1.1
+EffectAmplifier: 2
+EffectHealsPlayer: true
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: ' W '
+  Middle: WNW
+  Bottom: ' W '
+  Materials:
+    W: WITHER_SKELETON_SKULL
+    N: NETHER_STAR

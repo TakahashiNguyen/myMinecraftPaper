@@ -1,0 +1,18 @@
+Allowed: true
+Color: '%YELLOW%'
+MaxLevel: 5
+SlotCost: 1
+ArrowSpread: 5.0
+NeedsArrows: true
+UseEnchantOnCrossbow: false
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: QQQ
+  Middle: AAA
+  Bottom: QQQ
+  Materials:
+    Q: QUARTZ_BLOCK
+    A: ARROW

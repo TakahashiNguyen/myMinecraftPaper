@@ -1,0 +1,15 @@
+Allowed: true
+Color: '%WHITE%'
+MaxLevel: 5
+SlotCost: 1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: QQQ
+  Middle: QOQ
+  Bottom: QQQ
+  Materials:
+    Q: QUARTZ_BLOCK
+    O: NETHER_QUARTZ_ORE

@@ -1,0 +1,16 @@
+Allowed: true
+Color: '%DARK_GREEN%'
+MaxLevel: 3
+SlotCost: 3
+EnchantCost: 50
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: RFR
+  Middle: FPF
+  Bottom: RFR
+  Materials:
+    P: PISTON
+    R: RABBIT_FOOT
+    F: FEATHER

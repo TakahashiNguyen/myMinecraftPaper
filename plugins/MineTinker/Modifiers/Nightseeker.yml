@@ -1,0 +1,17 @@
+Allowed: true
+Color: '%DARK_GRAY%'
+MaxLevel: 3
+SlotCost: 1
+DamageMultiplierPerLevel: 0.1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: OEO
+  Middle: EDE
+  Bottom: OEO
+  Materials:
+    D: DAYLIGHT_DETECTOR
+    E: END_STONE
+    O: OBSIDIAN

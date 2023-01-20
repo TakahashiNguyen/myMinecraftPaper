@@ -1,0 +1,12 @@
+Allowed: true
+Color: '%GREEN%'
+MaxLevel: 10
+SlotCost: 1
+PercentagePerLevel: 10
+HealthRepair: 3
+UseMending: false
+EnchantCost: 25
+Enchantable: true
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: false

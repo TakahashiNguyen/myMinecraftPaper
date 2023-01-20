@@ -1,0 +1,18 @@
+Allowed: true
+Color: '%DARK_AQUA%'
+MaxLevel: 1
+SlotCost: 1
+EnchantCost: 50
+Enchantable: false
+MinimumToolLevelRequirement: 1
+ChancePerLevel: 100
+Recipe:
+  Enabled: true
+  Top: SPS
+  Middle: PCP
+  Bottom: SPS
+  Materials:
+    P: PRISMARINE_SHARD
+    S: SEA_LANTERN
+    C: CREEPER_HEAD
+WorksOnlyInStorms: true

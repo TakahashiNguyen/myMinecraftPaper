@@ -1,0 +1,21 @@
+Allowed: true
+Color: '%DARK_GRAY%'
+MaxLevel: 5
+SlotCost: 1
+RadiusPerLevel: 10
+CooldownInSeconds: 3600
+CooldownReductionPerLevel: 0.4
+Particles: true
+Sound: true
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: SES
+  Middle: ETE
+  Bottom: SES
+  Materials:
+    S: SHULKER_SHELL
+    T: TOTEM_OF_UNDYING
+    E: ENDER_EYE

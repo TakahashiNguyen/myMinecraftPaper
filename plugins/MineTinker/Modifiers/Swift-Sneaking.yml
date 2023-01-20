@@ -1,0 +1,17 @@
+Allowed: true
+Color: '%GRAY%'
+MaxLevel: 3
+SlotCost: 1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: BSB
+  Middle: DFD
+  Bottom: BSB
+  Materials:
+    B: BLUE_ICE
+    S: SOUL_SAND
+    D: DIAMOND
+    F: FEATHER

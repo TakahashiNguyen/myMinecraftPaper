@@ -1,0 +1,17 @@
+Allowed: true
+Color: '%GRAY%'
+MaxLevel: 4
+SlotCost: 1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: FIF
+  Middle: OAO
+  Bottom: FIF
+  Materials:
+    A: ARROW
+    F: FLINT
+    I: IRON_INGOT
+    O: OAK_PLANKS

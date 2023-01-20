@@ -1,0 +1,21 @@
+Allowed: true
+Color: '%DARK_GREEN%'
+MaxLevel: 2
+SlotCost: 2
+Sound: true
+Particles: true
+GiveNauseaOnUse: true
+NauseaDuration: 5
+GiveBlindnessOnUse: true
+BlindnessDuration: 3
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: PPP
+  Middle: PEP
+  Bottom: PPP
+  Materials:
+    P: ENDER_PEARL
+    E: ENDER_EYE

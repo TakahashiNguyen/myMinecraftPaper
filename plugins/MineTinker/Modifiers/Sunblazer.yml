@@ -1,0 +1,17 @@
+Allowed: true
+Color: '%YELLOW%'
+MaxLevel: 3
+SlotCost: 1
+DamageMultiplierPerLevel: 0.1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: GIG
+  Middle: IDI
+  Bottom: GIG
+  Materials:
+    D: DAYLIGHT_DETECTOR
+    G: GOLD_BLOCK
+    I: GOLD_INGOT

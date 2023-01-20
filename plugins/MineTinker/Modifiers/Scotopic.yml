@@ -1,0 +1,20 @@
+Allowed: true
+Color: '%YELLOW%'
+MaxLevel: 3
+SlotCost: 2
+RequiredLightLevel: 6
+CooldownInSeconds: 120
+DurationPerLevel: 100
+CooldownReductionPerLevel: 0.65
+GivesImmunityToBlindness: true
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: S S
+  Middle: ' F '
+  Bottom: S S
+  Materials:
+    S: SPIDER_EYE
+    F: FERMENTED_SPIDER_EYE

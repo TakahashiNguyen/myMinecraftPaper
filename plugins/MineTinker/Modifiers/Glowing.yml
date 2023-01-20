@@ -1,0 +1,17 @@
+Allowed: true
+Color: '%YELLOW%'
+MaxLevel: 3
+SlotCost: 1
+Duration: 200
+DurationMultiplier: 1.4
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: GGG
+  Middle: GEG
+  Bottom: GGG
+  Materials:
+    E: ENDER_EYE
+    G: GLOWSTONE_DUST

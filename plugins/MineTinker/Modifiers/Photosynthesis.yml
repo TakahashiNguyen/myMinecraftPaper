@@ -1,0 +1,23 @@
+Allowed: true
+Color: '%GREEN%'
+MaxLevel: 5
+SlotCost: 1
+HealthRepairPerLevel: 1
+MultiplierPerTick: 1.05
+TickTime: 100
+FullEffectAtNoon: true
+AllowOffHand: true
+MustStandStill: false
+NotifyWhenActive: false
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: DGD
+  Middle: GVG
+  Bottom: DGD
+  Materials:
+    D: DAYLIGHT_DETECTOR
+    V: VINE
+    G: GRASS_BLOCK

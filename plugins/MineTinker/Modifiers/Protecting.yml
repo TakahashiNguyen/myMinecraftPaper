@@ -1,0 +1,16 @@
+Allowed: true
+Color: '%GRAY%'
+MaxLevel: 4
+SlotCost: 1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: DID
+  Middle: IOI
+  Bottom: DID
+  Materials:
+    D: DIAMOND
+    I: IRON_INGOT
+    O: OBSIDIAN

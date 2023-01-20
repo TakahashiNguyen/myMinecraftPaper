@@ -1,0 +1,18 @@
+Allowed: true
+Color: '%LIGHT_PURPLE%'
+MaxLevel: 10
+SlotCost: 1
+Duration: 20
+EffectAmplifier: 2
+GivesImmunityToEffect: true
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: ' S '
+  Middle: ' C '
+  Bottom: ' S '
+  Materials:
+    S: SHULKER_SHELL
+    C: CHORUS_FRUIT

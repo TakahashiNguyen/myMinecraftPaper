@@ -1,0 +1,143 @@
+chat-prefix: '[MineTinker]'
+CheckForUpdates: true
+Language: en_US
+LowSpecMode: false
+logging:
+  standard: false # logs important player activities with MineTinker
+  debug: false # even more information
+  metrics: true # bStats-Metrics for anonymous statistics about the use of MineTinker
+  modifiers: false # Should Modifier-Interactions be logged in the Console
+chat-messages: true
+actionbar-messages: true
+actionbar-on-exp-gain: false
+BroadcastConfigChanges: true
+LanguageManagerNotifyOP: true
+NameCommandBlacklist:
+- BlacklistExample
+LevelStep: 100
+LevelFactor: 2.0
+ProgressionIsLinear: false
+ResetAtVarOverflow: true
+ExpPerBlockBreak: 1
+ExpPerEntityHit: 1
+ExpPerArrowShot: 1
+DisableExpFromFalldamage: false
+DisableNonPvPDamageExpArmor: false
+DisableNonPvPDamageExpWeapons: false
+ExtraExpPerBlock:
+  ApplicableToSilkTouch: false # Fixes Exp exploit with silk touch
+  DIAMOND_ORE: 2
+  EMERALD_ORE: 5
+  GOLD_ORE: 1
+ExtraExpPerEntityHit:
+  ENDER_DRAGON: 2
+ExtraExpPerEntityDeath:
+  ENDER_DRAGON: 500
+  WITHER: 250
+EnableDamageExp: true
+BlockExpCooldownInSeconds: 60
+AddModifierSlotsPerLevel: 1
+StartingModifierSlots: 1
+Upgradeable: true
+Repairable: true
+Combinable: false
+ModifiableInInventory: false
+UnbreakableTools: true
+Grindstone:
+  Enabled: true # Due to problems with grindstone and it's breaking mechanics you can disable it.
+  ChanceToGetSlotsBack: 100 # Percentage; Should the tool get free slots back for every removed Modifier?
+  ChanceToGetModifierItemBack: 100 # Percentage; Should the player get the possible used modification items back?
+UseSmithingTable: false
+AllowEnchanting: false
+EnchantingCostsSlots: true
+AllowCrafting: true
+AllowConverting: true
+BlockToEnchantModifiers: BOOKSHELF
+HideEnchants: true
+HideAttributes: true
+ConvertBookToModifier: true
+EnableLore: true
+ConvertEnchantmentsOnEnchant: true
+RefundLostEnchantmentsAsItems: true
+ConvertEnchantsAndAttributes: true
+ToolIdentifier: IdentifierTool
+ArmorIdentifier: IdentifierArmor
+ChanceToFailModifierApply: 0
+ChanceToFailToolUpgrade: 0
+ItemBehaviour:
+  ConvertItemsOnUse: true # Converts items on use, only works if item supported by a plugin.
+  TrackStatistics: true # Should MT track statistics for a item
+  ShowName: true # Shows the name of the ItemStack (if has one) when on the ground
+  SetGlowing: true # Item glowes on the ground
+  SetInvulnerable: true # Item can not be damaged or destroyed
+  SetPersistent: false # Item will not despawn
+  ForModItems: true # Settings apply also for Modifier-Items
+  DisableDroppingBehaviour: false # Disables the Itembehaviours for droping them and drop on death - every option above - for plugin compatibility
+  StopBreakEvent: true # If the item breaks due to a bug, give the item back to the player with 1 durability
+  AlertPlayerOnBreak: false # If the item breaks due to a bug, alert the player
+  ApplyOnPlayerDeath: true # Applies ItemBehaviour on PlayerDeath, set false if another plugin controls keepInventory on deaths
+ModifiersCanBeUsedForCrafting: false
+ConvertLoot:
+  MobDrops: true # Should Mobdrops be converted to MineTinker
+  ChestLoot: true # Should Chestloot be converted to MineTinker
+  Chance: 100 # Not the real / actual chance as Modifier-Application can fail
+  ApplyModifiers: true
+  MaximumNumberOfModifiers: 4 # Not the real / actual amount as Modifier-Application can fail
+  AppliedModifiersConsiderSlots: true
+  ApplyExp: true
+  MaximumNumberOfExp: 650
+MobDropModifierItems:
+  Enabled: true # Should Modifieritems be dropped from Mobs
+  Chance: 100
+  MaximumAmount: 2 # Amount of possible different modifiers (Item will have amount of 1)
+  ExcludeModifiers:
+  - Extra-Modifier
+  ConsiderIncludedMobs: true
+  IncludedMobs:
+  - ENDER_DRAGON
+  - WITHER
+LevelUpEvents:
+  enabled: true # disable all events
+  DurabilityRepair: # Repairs the tool
+    enabled: true
+    percentage: 50
+  RandomModifier: # Applies a random modifier
+    enabled: true
+    percentage: 10
+    MaximumAmountOfModifiers: 1 # How many (different) Modifiers should be applied in this event
+    DisableAddingNewSlots: false # Should the Event replace the normal free Slots on Level up
+    AllowExtraModifier: true # Should the Extra Modifier be part of the random roll
+    DropAsItem: false
+  DropLoot: # Drops specific loot
+    enabled: true
+    percentage: 25
+    minimumDrop: 1
+    maximumDrop: 5
+    Items:
+    - DIAMOND
+    - IRON_INGOT
+    - GOLD_INGOT
+    - EMERALD
+  DropXP: # Drops a certain amount of XP
+    enabled: true
+    percentage: 25
+    amount: 100
+Sound:
+  OnLevelUp: true
+  OnCrafting: true
+  OnEveryCrafting: false
+  OnModding: true
+  OnFail: true
+  OnEnchanting: true
+  OnUpgrade: true
+  OnBreaking: true
+BannedWorlds:
+- bannedExample1
+- bannedExample2
+EasyHarvest:
+  enabled: true
+  replant: true # Should the crop be replanted (if item is in inventory)
+  Sound: true # Should there be sound when harvesting
+  BannedWorlds: # Worlds where EasyHarvest can't be used
+    - bannedExample1
+    - bannedExample2

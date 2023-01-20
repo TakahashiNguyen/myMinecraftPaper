@@ -1,0 +1,14 @@
+UseRomans:
+  Level: true
+  Exp: false
+  FreeSlots: false
+  ModifierLevels: true
+OverrideLanguagesystem: false
+UsePatternMatcher: false
+LoreLayout:
+- '%GOLD%Level %WHITE%%LEVEL%'
+- '%GOLD%Exp: %WHITE%%EXP% / %NEXT_LEVEL_EXP%'
+- '%WHITE%Free Modifier Slots: %FREE_SLOTS%'
+- '%WHITE%Modifiers:'
+- '%MODIFIERS%'
+ModifierLayout: '%MODIFIER% %WHITE%%MODLEVEL%'

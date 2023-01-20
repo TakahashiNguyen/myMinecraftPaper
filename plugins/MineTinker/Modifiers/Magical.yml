@@ -1,0 +1,20 @@
+Allowed: true
+Color: '%DARK_PURPLE%'
+MaxLevel: 5
+SlotCost: 1
+MultiplierArrowSpeed: 0.3
+MultiplierArrowDamagePerLevel: 1.25
+ExperienceCost: 3
+HasKnockback: true
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: BPB
+  Middle: PAP
+  Bottom: BPB
+  Materials:
+    P: BLAZE_POWDER
+    A: ARROW
+    B: DRAGON_BREATH

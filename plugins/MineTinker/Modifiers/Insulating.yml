@@ -1,0 +1,16 @@
+Allowed: true
+Color: '%WHITE%'
+MaxLevel: 4
+SlotCost: 1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: IMI
+  Middle: MDM
+  Bottom: IMI
+  Materials:
+    D: DIAMOND
+    I: IRON_BLOCK
+    M: MAGMA_BLOCK

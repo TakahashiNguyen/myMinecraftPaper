@@ -1,0 +1,16 @@
+Allowed: true
+Color: '%GREEN%'
+MaxLevel: 10
+SlotCost: 1
+PercentagePerLevel: 2
+Amount: 1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: '   '
+  Middle: ' E '
+  Bottom: '   '
+  Materials:
+    E: EXPERIENCE_BOTTLE

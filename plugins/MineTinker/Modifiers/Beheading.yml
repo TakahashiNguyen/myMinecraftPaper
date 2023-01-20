@@ -1,0 +1,11 @@
+Allowed: true
+Color: '%DARK_GRAY%'
+MaxLevel: 10
+SlotCost: 2
+PercentagePerLevel: 10
+DropSpawnEggChancePerLevel: 0
+EnchantCost: 25
+Enchantable: true
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: false

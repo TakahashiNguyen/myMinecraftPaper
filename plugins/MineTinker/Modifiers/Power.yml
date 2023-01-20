@@ -1,0 +1,22 @@
+Allowed: true
+Color: '%GREEN%'
+Lv1Vertical: false
+Toggleable: true
+MaxLevel: 2
+SlotCost: 2
+EnchantCost: 15
+Enchantable: true
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: false
+Blacklist:
+- AIR
+- BEDROCK
+- WATER
+- BUBBLE_COLUMN
+- LAVA
+- END_PORTAL
+- END_CRYSTAL
+- END_PORTAL_FRAME
+- NETHER_PORTAL
+TreatAsWhitelist: false

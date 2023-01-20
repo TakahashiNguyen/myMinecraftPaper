@@ -1,0 +1,14 @@
+Allowed: true
+Color: '%WHITE%'
+ExtraModifierGain: 1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: '   '
+  Middle: ' N '
+  Bottom: '   '
+  Materials:
+    N: NETHER_STAR
+OverrideLanguagesystem: false

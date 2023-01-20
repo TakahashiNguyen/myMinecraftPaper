@@ -1,0 +1,21 @@
+Allowed: true
+Color: '%GRAY%'
+MaxLevel: 5
+SlotCost: 3
+PercentPerLevel: 10
+SneakMultiplier: 0.5
+SprintMultiplier: 2.0
+PvPMultiplier: 0.5
+CooldownInSeconds: 5
+Sound: true
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: D D
+  Middle: ' F '
+  Bottom: D D
+  Materials:
+    D: DIAMOND
+    F: FEATHER

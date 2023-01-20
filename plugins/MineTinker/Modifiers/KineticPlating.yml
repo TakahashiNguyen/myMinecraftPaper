@@ -1,0 +1,16 @@
+Allowed: true
+Color: '%GRAY%'
+MaxLevel: 5
+SlotCost: 1
+Amount: 20
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: PIP
+  Middle: III
+  Bottom: PIP
+  Materials:
+    P: PHANTOM_MEMBRANE
+    I: IRON_BLOCK

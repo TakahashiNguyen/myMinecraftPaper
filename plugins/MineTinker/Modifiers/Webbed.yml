@@ -1,0 +1,19 @@
+Allowed: true
+Color: '%WHITE%'
+MaxLevel: 3
+SlotCost: 1
+Duration: 60
+DurationMultiplier: 1.2
+EffectAmplifier: 2
+GivesImmunityToEffect: true
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: WWW
+  Middle: WBW
+  Bottom: WWW
+  Materials:
+    B: BLUE_ICE
+    W: COBWEB

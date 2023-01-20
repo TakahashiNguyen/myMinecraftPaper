@@ -1,0 +1,18 @@
+Allowed: true
+Color: '%DARK_RED%'
+MaxLevel: 3
+SlotCost: 1
+PercentToTrigger: 50
+PercentOfDamagePerLevel: 10
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: SRS
+  Middle: RNR
+  Bottom: SRS
+  Materials:
+    R: ROTTEN_FLESH
+    S: SOUL_SAND
+    N: NETHERRACK

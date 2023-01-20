@@ -1,0 +1,16 @@
+Allowed: true
+Color: '%GRAY%'
+MaxLevel: 1
+SlotCost: 3
+RequiredLightLevel: 6
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: CDC
+  Middle: DDD
+  Bottom: CDC
+  Materials:
+    C: COBWEB
+    D: DIAMOND

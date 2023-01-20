@@ -1,0 +1,17 @@
+Allowed: true
+Color: '%DARK_RED%'
+MaxLevel: 3
+SlotCost: 1
+BoostTimeInTicks: 200
+TriggerPercent: 20
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: FRF
+  Middle: RFR
+  Bottom: FRF
+  Materials:
+    R: REDSTONE
+    F: ROTTEN_FLESH

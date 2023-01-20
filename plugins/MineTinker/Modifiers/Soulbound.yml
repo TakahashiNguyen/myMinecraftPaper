@@ -1,0 +1,19 @@
+Allowed: true
+Color: '%GRAY%'
+MaxLevel: 1
+SlotCost: 2
+PercentagePerLevel: 100
+DecrementModLevelOnUse: false
+ToolDropable: true
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: BLB
+  Middle: LNL
+  Bottom: BLB
+  Materials:
+    B: BLAZE_ROD
+    L: LAVA_BUCKET
+    N: NETHER_STAR

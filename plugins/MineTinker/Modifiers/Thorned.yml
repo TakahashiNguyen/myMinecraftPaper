@@ -1,0 +1,16 @@
+Allowed: true
+Color: '%DARK_GREEN%'
+MaxLevel: 3
+SlotCost: 1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: VAV
+  Middle: ASA
+  Bottom: VAV
+  Materials:
+    A: ARROW
+    S: SLIME_BALL
+    V: VINE

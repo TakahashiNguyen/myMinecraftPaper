@@ -1,0 +1,11 @@
+Allowed: true
+Color: '%GOLD%'
+MaxLevel: 3
+SlotCost: 1
+BonusMultiplier: 0.1
+CancelBurningOnArmor: true
+EnchantCost: 10
+Enchantable: true
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: false

@@ -26,7 +26,7 @@ ShopSections:
     enable: true
     material: "ENCHANTED_BOOK"
     displayname: "&d&lEnchanting"
-    slot: 22
+    slot: 13
     lore:
     - "&5&lGear up with enchantments!"
 
@@ -58,7 +58,7 @@ ShopSections:
     enable: true
     material: "IRON_INGOT"
     displayname: "&f&lOres"
-    slot: 13
+    slot: 22
 
   Miscellaneous:
     enable: true

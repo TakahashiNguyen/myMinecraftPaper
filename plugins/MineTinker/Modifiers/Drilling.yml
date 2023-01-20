@@ -1,0 +1,28 @@
+Allowed: true
+Color: '%GREEN%'
+Toggleable: true
+MaxLevel: 4
+SlotCost: 1
+EnchantCost: 15
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: ' D '
+  Middle: DGD
+  Bottom: GHG
+  Materials:
+    D: DIAMOND
+    G: GOLD_BLOCK
+    H: HOPPER
+Blacklist:
+- AIR
+- BEDROCK
+- WATER
+- BUBBLE_COLUMN
+- LAVA
+- END_PORTAL
+- END_CRYSTAL
+- END_PORTAL_FRAME
+- NETHER_PORTAL
+TreatAsWhitelist: false

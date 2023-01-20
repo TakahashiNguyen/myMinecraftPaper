@@ -1,0 +1,16 @@
+Allowed: true
+Color: '%YELLOW%'
+MaxLevel: 5
+SlotCost: 1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: BMB
+  Middle: MIM
+  Bottom: BMB
+  Materials:
+    B: BONE
+    I: IRON_INGOT
+    M: BONE_MEAL

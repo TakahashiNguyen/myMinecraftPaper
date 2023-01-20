@@ -1,0 +1,16 @@
+Allowed: true
+Color: '%DARK_RED%'
+MaxLevel: 5
+SlotCost: 1
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: RDR
+  Middle: GRG
+  Bottom: RDR
+  Materials:
+    R: REDSTONE_BLOCK
+    D: DIAMOND
+    G: GOLD_INGOT

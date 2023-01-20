@@ -1,0 +1,9 @@
+Allowed: true
+Color: '%WHITE%'
+MaxLevel: 1
+SlotCost: 1
+EnchantCost: 10
+Enchantable: true
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: false

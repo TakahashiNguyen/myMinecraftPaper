@@ -1,0 +1,18 @@
+Allowed: true
+Color: '%DARK_GRAY%'
+MaxLevel: 5
+SlotCost: 1
+HealthPerLevel: 3
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+AllowElytra: false
+Recipe:
+  Enabled: true
+  Top: RBR
+  Middle: BOB
+  Bottom: RBR
+  Materials:
+    B: BONE
+    R: ROTTEN_FLESH
+    O: OBSIDIAN

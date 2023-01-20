@@ -1,0 +1,16 @@
+Allowed: true
+Color: '%BLUE%'
+MaxLevel: 5
+SlotCost: 1
+SpeedPerLevel: 0.01
+EnchantCost: 10
+Enchantable: false
+MinimumToolLevelRequirement: 1
+Recipe:
+  Enabled: true
+  Top: R R
+  Middle: ' H '
+  Bottom: R R
+  Materials:
+    R: RABBIT_FOOT
+    H: RABBIT_HIDE

@@ -1,0 +1,21 @@
+Allowed: true
+Color: '%GOLD%'
+MaxLevel: 5
+SlotCost: 5
+EnchantCost: 50
+Enchantable: false
+MinimumToolLevelRequirement: 5
+HomingRadius: 10
+AccuracyPerLevel: 0.025
+MaximumHomingSeconds: 10
+WorksOnPlayers: true
+Recipe:
+  Enabled: true
+  Top: ESE
+  Middle: NON
+  Bottom: ESE
+  Materials:
+    S: SHULKER_SHELL
+    E: ENDER_EYE
+    N: NETHER_STAR
+    O: OBSERVER
