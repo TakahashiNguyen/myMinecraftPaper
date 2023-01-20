@@ -5,8 +5,8 @@ userdata*
 server.jar
 *paper*.jar
 /*cache
-logs/
-tmp/
+*logs/
+*tmp/
 *.data
 /libraries
 /world*
@@ -15,6 +15,6 @@ tmp/
 !vi_VN.propeties
 .console_history
 usercache.json
-plugins/Auto-Tune/web/data/data.csv
-plugins/Essentials/usermap.csv
-plugins/ProtocolLib/lastupdate
+*/usermap.csv
+*/lastupdate
+*userdata/
