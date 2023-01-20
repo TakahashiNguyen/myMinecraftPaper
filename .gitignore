@@ -9,7 +9,8 @@ server.jar
 *tmp/
 *.data
 lib*/
-/[wW]orld*/*
+[wW]orld*/*
+/LuckPerms/config.yml
 *.propeties
 .console_history
 usercache.json
