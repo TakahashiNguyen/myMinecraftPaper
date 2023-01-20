@@ -10,7 +10,7 @@ server.jar
 *.data
 lib*/
 [wW]orld*/*
-/LuckPerms/config.yml
+plugins/LuckPerms/config.yml
 *.propeties
 .console_history
 usercache.json
@@ -26,3 +26,4 @@ plugins/Essentials/usermap.csv
 !/world/datapacks/
 wepif.yml
 plugins/nCore/dependencies/relocated/nlogin/*
+plugins/Lottery/data.yml
