@@ -7,10 +7,10 @@ TimeDraws:
 - '12:00:00'
 - '18:00:00'
 GlobalBoughtMessage: true
-TicketCost: 100.0
-MoneyToPot: 100.0
-ExtraInPot: 10.0
-Refund: 100.0
+TicketCost: 10.0
+MoneyToPot: 10000.0
+ExtraInPot: 90.0
+Refund: 10.0
 TaxesPercent: 10
 ServerAccount: none
 MinPlayers: 2

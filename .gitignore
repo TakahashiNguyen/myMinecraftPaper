@@ -11,7 +11,7 @@ server.jar
 lib*/
 [wW]orld*/*
 worlds
-plugins/LuckPerms/config.yml
+!plugins/luckperms/*sqlite.db
 *.propeties
 .console_history
 usercache.json

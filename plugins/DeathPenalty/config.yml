@@ -43,11 +43,11 @@ MoneyLost: 95
 # (Global) Change Death money min
 DeathMoneyMin: 1
 # This option to enable or disable Modify Food and Health after player death for all (global and group).
-ModifyFoodandHealth: false
+ModifyFoodandHealth: true
 # (Global) Set penalties remove heart for respawn player for Global (Usually one heart bar = 2 )
-DeathRemoveHealthBar: 10
+DeathRemoveHealthBar: 3
 # (Global) Set penalties remove food for respawn player for Global (Usually one food bar = 2 )
-DeathRemoveFoodBar: 10
+DeathRemoveFoodBar: 12
 # (Global) Your food level will  instantly drop if you are saturated 0, Vanilla Default Saturation after respawn is 5
 DeathsetSaturation: 1
 # Set enable world for penalties
@@ -113,21 +113,24 @@ ApplyPotionOnRespawn: true
 # list all potion effect on player respawn. https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
 # use in game config if you won't search on internet.
 RespawnPotionEffect:
-  WEAKNESS:
-    Duration: 20
-    Amplifier: 1
   DARKNESS:
-    Duration: 20
-    Amplifier: 1
+    Duration: 30
+    Amplifier: 2
   UNLUCK:
-    Duration: 20
-    Amplifier: 1
+    Duration: 300
+    Amplifier: 5
   SLOW_DIGGING:
-    Duration: 20
+    Duration: 150
     Amplifier: 1
   SLOW:
-    Duration: 20
-    Amplifier: 1
+    Duration: 60
+    Amplifier: 4
+  HUNGER:
+    Duration: 10
+    Amplifier: 5
+  INVISIBILITY:
+    Duration: 5
+    Amplifier: 5
 # Spawn Monster on player death
 SpawnMobs:
   # Enable or Disable Spawn monster on player death
@@ -163,17 +166,15 @@ RandomRemoveItem:
   # When gameRules KeepInventory true, item will drop or deleted forever ?
   # delete : remove item forever
   # drop : drop item on the ground.... or lava (it's deleted forever too XD).
-  OnKeepInventoryTrue: delete
+  OnKeepInventoryTrue: drop
 # Run server command when player killed by player
 PlayerKilledCommand:
   # Enable or Disable PlayerKilledCommand on player death
   Enable: false
   # Server command without "/"
   ServerCommand:
-  - effect give %player% minecraft:weakness 20
-  - effect give %player% minecraft:slowness 20
-  - effect give %player% minecraft:darkness 20
-  - effect give %killer% minecraft:luck 200
+  - say %player% killed by %killer%
+  - say %player% killed by %killer%
 # Run server command when player death by any cause.
 RunCommandWhenDeath:
   # Enable or Disable RunCommandWhenDeath on player death

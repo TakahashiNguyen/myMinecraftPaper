@@ -1,0 +1,22 @@
+# MoneyDrops
+# Version: 2.0.1
+# Author: Wafflez
+# Credits: MilkBowl - VaultAPI
+# Any unauthorised re-distribution of this plugin's source code is not permitted.
+
+mobCash:
+  cashPickupMessage: '&6You killed a&l [mobName] &r&6and earned &l$[reward]'
+  gamemodes:
+    creative: false
+    survival: true
+    spectator: false
+    adventure: true
+  worlds:
+    world: true
+    world_nether: true
+    world_the_end: true
+  cashCooldownMessage: '&4Mob rewards cooling down...'
+  cashRefreshMessage: '&6Mob rewards refreshed!'
+  maxKillsPerMinute: 50
+  boostExpiredMessage: '&7[multiplier] mob reward boost has expired!'
+  allBoostsExpiredMessage: '&7All mob reward boosts have expired!'
