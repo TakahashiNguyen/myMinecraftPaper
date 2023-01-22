@@ -32,3 +32,4 @@ plugins/Lottery/data.yml
 *.log*
 *.bak
 *crash*
+plugins/AntiVPN/external/*
