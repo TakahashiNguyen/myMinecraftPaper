@@ -29,3 +29,6 @@ plugins/nCore/dependencies/relocated/nlogin/*
 plugins/Lottery/data.yml
 plugins/Graves/config/config.yml
 plugins/Lottery/data.yml
+*.log*
+*.bak
+*crash*
