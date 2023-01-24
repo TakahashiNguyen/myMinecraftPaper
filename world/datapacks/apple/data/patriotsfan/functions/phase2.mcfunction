@@ -1,2 +1,2 @@
-schedule function patriotsfan:phase1 30s
+schedule function patriotsfan:phase1 300
 say Load loop
