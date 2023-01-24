@@ -33,3 +33,6 @@ plugins/Lottery/data.yml
 *.bak
 *crash*
 plugins/AntiVPN/external/*
+server.propeties
+plugins/**/backup
+plugins/**/data.yml
